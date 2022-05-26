@@ -1,4 +1,5 @@
 const moment = require('moment')
+// import * as moment from 'moment'
 
 function formatMessage(username, text) {
     return  {
