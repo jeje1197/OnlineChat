@@ -4,12 +4,6 @@ const socketio = require('socket.io')
 const formatMessage = require('./utils/messages')
 const { userJoin, getCurrentUser, userLeave, getRoomUsers } = require('./utils/users')
 
-// import http from 'http'
-// import express from 'express'
-// import socketio from 'socket.io'
-// import formatMessage from './utils/messages'
-// import { userJoin, getCurrentUser, userLeave, getRoomUsers } from './utils/users'
-
 const app = express()
 const server = http.createServer(app)
 const io = socketio(server)
